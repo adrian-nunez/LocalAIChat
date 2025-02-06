@@ -1,0 +1,26 @@
+<svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fondo circular -->
+  <circle cx="64" cy="64" r="60" fill="#2d2d2d"/>
+  
+  <!-- Letras LAC (LocalAiChat) estilizadas -->
+  <path d="M48 45 C30 45, 30 83, 48 83 L80 83 C98 83, 98 45, 80 45 L48 45" 
+        fill="none" 
+        stroke="#66d9ef" 
+        stroke-width="6"
+        stroke-linecap="round"/>
+  
+  <!-- Puntos que forman "Ai" -->
+  <circle cx="48" cy="64" r="4" fill="#66d9ef"/>
+  <circle cx="64" cy="64" r="4" fill="#e0e0e0"/>
+  <circle cx="80" cy="64" r="4" fill="#66d9ef"/>
+  
+  <!-- Detalles neurales -->
+  <path d="M38 54 L44 60 M84 54 L90 60" 
+        stroke="#66d9ef" 
+        stroke-width="3"
+        stroke-linecap="round"/>
+  <path d="M38 74 L44 68 M84 74 L90 68" 
+        stroke="#66d9ef" 
+        stroke-width="3"
+        stroke-linecap="round"/>
+</svg>

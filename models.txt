@@ -1,0 +1,4 @@
+deepseek-r1:8b
+qwen:7b
+llama2:7b-chat
+# Puedes agregar más modelos aquí

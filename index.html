@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Title will be set dynamically based on language -->
+    <title>Local LLM chat</title>
+    <!-- External dependencies -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-dark.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <!-- Styles moved to separate file -->
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="alternate icon" type="image/png" href="favicon.png" />
+  </head>
+  <body>
+    <div class="header">
+      <img src="logo.svg" alt="LocalAiChat" class="header-logo" />
+    </div>
+
+    <div class="container">
+      <!-- Settings section -->
+      <div class="settings">
+        <select id="model-select"></select>
+        <div class="enter-option">
+          <input type="checkbox" id="enterSend" checked />
+          <label for="enterSend" id="enterLabel"></label>
+        </div>
+      </div>
+
+      <!-- Model information message -->
+      <div class="model-message" id="model-message"></div>
+
+      <!-- Input area -->
+      <div class="input-area">
+        <textarea id="prompt"></textarea>
+        <button id="sendButton"></button>
+      </div>
+
+      <!-- Chat display area -->
+      <div class="chat-container">
+        <div id="thinkDiv"></div>
+        <div id="response"></div>
+      </div>
+    </div>
+
+    <!-- Main application script -->
+    <script src="app.js"></script>
+  </body>
+</html>
