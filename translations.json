@@ -1,6 +1,6 @@
 {
   "en": {
-    "title": "Chat with DeepSeek",
+    "title": "Local AI Chat",
     "placeholder": "Write your question here...",
     "send": "Send",
     "enterToSend": "Send with Enter",
@@ -16,10 +16,10 @@
     "requestError": "There was an error processing the request"
   },
   "es": {
-    "title": "Chat con DeepSeek",
+    "title": "Local AI Chat",
     "placeholder": "Escribe tu pregunta aquí...",
     "send": "Enviar",
-    "enterToSend": "Enviar con Enter",
+    "enterToSend": "Enviar al presionar Enter",
     "noModelsAvailable": "No hay modelos disponibles",
     "emptyModelsFile": "El archivo models.txt está vacío. Por favor, añade al menos un modelo al archivo.",
     "errorLoadingModels": "Error al cargar el archivo models.txt. Asegúrate de que el archivo exista y sea accesible.",
@@ -32,7 +32,7 @@
     "requestError": "Hubo un error al procesar la petición"
   },
   "fr": {
-    "title": "Chat avec DeepSeek",
+    "title": "Local AI Chat",
     "placeholder": "Écrivez votre question ici...",
     "send": "Envoyer",
     "enterToSend": "Envoyer avec Entrée",
@@ -48,7 +48,7 @@
     "requestError": "Une erreur s'est produite lors du traitement de la demande"
   },
   "de": {
-    "title": "Chat mit DeepSeek",
+    "title": "Local AI Chat",
     "placeholder": "Schreiben Sie Ihre Frage hier...",
     "send": "Senden",
     "enterToSend": "Mit Enter senden",
@@ -64,7 +64,7 @@
     "requestError": "Bei der Verarbeitung der Anfrage ist ein Fehler aufgetreten"
   },
   "it": {
-    "title": "Chat con DeepSeek",
+    "title": "Local AI Chat",
     "placeholder": "Scrivi qui la tua domanda...",
     "send": "Invia",
     "enterToSend": "Invia con Invio",
@@ -80,7 +80,7 @@
     "requestError": "Si è verificato un errore durante l'elaborazione della richiesta"
   },
   "pt": {
-    "title": "Chat com DeepSeek",
+    "title": "Local AI Chat",
     "placeholder": "Escreva sua pergunta aqui...",
     "send": "Enviar",
     "enterToSend": "Enviar com Enter",
@@ -96,7 +96,7 @@
     "requestError": "Houve um erro ao processar a solicitação"
   },
   "nl": {
-    "title": "Chat met DeepSeek",
+    "title": "Local AI Chat",
     "placeholder": "Schrijf hier je vraag...",
     "send": "Verstuur",
     "enterToSend": "Verstuur met Enter",
@@ -112,7 +112,7 @@
     "requestError": "Er is een fout opgetreden bij het verwerken van het verzoek"
   },
   "ja": {
-    "title": "DeepSeekとチャット",
+    "title": "Local AI Chat",
     "placeholder": "ここに質問を書いてください...",
     "send": "送信",
     "enterToSend": "Enterで送信",
@@ -128,7 +128,7 @@
     "requestError": "リクエストの処理中にエラーが発生しました"
   },
   "zh": {
-    "title": "与DeepSeek聊天",
+    "title": "Local AI Chat",
     "placeholder": "在此输入您的问题...",
     "send": "发送",
     "enterToSend": "按回车键发送",
@@ -144,7 +144,7 @@
     "requestError": "处理请求时发生错误"
   },
   "ko": {
-    "title": "DeepSeek와 채팅",
+    "title": "Local AI Chat",
     "placeholder": "여기에 질문을 입력하세요...",
     "send": "보내기",
     "enterToSend": "Enter로 보내기",

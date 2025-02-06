@@ -50,7 +50,7 @@ function setLanguage() {
 // Load available models
 async function loadModels(filePath) {
   try {
-    const response = await fetch(filePath);
+    const response = await fetch(`${filePath}?_=${new Date().getTime()}`);
     if (!response.ok) throw new Error(`Error loading models from ${filePath}`);
 
     const text = await response.text();
